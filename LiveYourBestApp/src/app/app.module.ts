@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { LiveBestComponent } from './live-best/live-best.component';
 import { QuestionsComponent } from './questions/questions.component';
 import { HeroComponent } from './hero/hero.component';
+import { QuestionFormComponent } from './question-form/question-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LiveBestComponent,
     QuestionsComponent,
-    HeroComponent
+    HeroComponent,
+    QuestionFormComponent
   ],
   imports: [
     BrowserModule,
